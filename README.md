@@ -40,20 +40,23 @@ The **Sorting & Performance Analyzer** allows users to:
 
 ## Project Structure
 
+```bash
 Sorting-Performance-Analyzer/
 ├── CMakeLists.txt
 ├── main.cpp
 ├── include/
-│ ├── benchmark.h
-│ └── sorting_algorithms.h
+│   ├── benchmark.h
+│   ├── sorting_algorithms.h
+│   └── dataset_generator.h
 ├── src/
-│ ├── benchmark.cpp
-│ ├── bubble_sort.cpp
-│ ├── insertion_sort.cpp
-│ ├── merge_sort.cpp
-│ ├── quick_sort.cpp
-│ └── dataset_generator.cpp
+│   ├── benchmark.cpp
+│   ├── bubble_sort.cpp
+│   ├── insertion_sort.cpp
+│   ├── merge_sort.cpp
+│   ├── quick_sort.cpp
+│   └── dataset_generator.cpp
 └── build/
+```
 
 ## Getting Started
 
