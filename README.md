@@ -68,7 +68,7 @@ Sorting-Performance-Analyzer/
 ### Build instructions
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ShukaybY/Sorting-Performance-Analyzer
 cd SrtAlg
 mkdir build
 cd build
