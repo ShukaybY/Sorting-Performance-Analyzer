@@ -86,13 +86,13 @@ make
 - Exports the full dataset to dataset.csv
 
 ## Example output
-
+```bash
 Dataset written to dataset.csv
 Bubble sort: 3.12864ms 
 Insertion sort: 0.786625ms 
 Merge sort: 0.511158ms 
 Quick sort: 0.113533ms 
-
+```
 ## Skills Demonstrated
 
 - C++17 programming (std::function, lambdas, chrono)
