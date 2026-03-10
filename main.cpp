@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @brief Entry point for the sorting algorithm benchmark suite.
+ *
+ * Generates a test dataset, persists it to CSV, then benchmarks all four
+ * sorting algorithm implementations (Bubble, Insertion, Merge, Quick Sort)
+ * and prints their average execution times to standard output.
+ */
+
 #include "sorting_algorithms.h"
 #include "dataset_generator.h"
 #include "benchmark.h"
